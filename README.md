@@ -1,0 +1,16 @@
+# Tagsonomy
+Carrying Forward Tagsonomania
+
+A successfully open, extensible and scalable system of tags would include three core URLs (or URIs) to:
+
+1) The ID  of the entity that applied the tag;   
+2) The applicable tag definition from the authoritative source; and    
+3) The object to which the tag was applied. 
+
+The URL of an "object to which the tag was applied" in the context of FistToDisclose.net,  would just be the "idea" or "disclosure" page.  Ideally the URL to the object tagged would include a hash of the version of that file at the time the tag was applied (or selected, if there was a lag before it was applied).  A good example is the excellent implementation by GitHub of this feature.  
+
+The URL for an Identity of the person or other entity that applied a given tag in a given context could go to a Profile page, for example a user profile on FirstToDisclose.net.  Alternatively, this could be a URI to an OpenID Connect User Endpoint or other pointer in a standard form to identity information about the entity that applied the tag.  Assuming tags are only applied by entities that have an "active account" on implementations of "FirstToDisclose" then this information can be assumed to exist (though not necessarily assumed to be true, accurate, up to date or continuously available into the future).  
+
+If/when it matters who tagged something (ie for purposes of official discoverability of tax filing deadlines or notice of a mortgage on a digital deed, etc) then one can expect legal and other requirements for registrations, licenses, official directories, etc which are out of scope of this functional model and data model, but entirely supported by the approach.  The URL of the tag definition would in that case point to a taxonomy and schema that included directly or by reference requirements for maintaining identity information about the entity that applied the tags and the URL to the identity of the tagger would presumably point to a system that approved by the authority for that tag set.  If a person who is not authorized to apply a given tag still applied that tag no inherant harm is done because the URL to the identity of the person that applied the tag could immediately indicate whether that person was subject to the rules or not.  A line of code could instantly sort, filter and search objectis based only on official tag sets applied by authorized taggers if that were required or desired.  The information gleened by how others apply tags - whether authorized by a taxonomy provider or not - may be just as valuable or more valuable in a given context.  For example, a law professor who is expert in a narrow area may apply fine distinctions at much higher quality in a legislative or judicial tag set applied to regulations or policies than the full time paid staff responsible for official tagging.  Anybody could - using the above approach - set a filter to weight more heavily certain taggers or to base results solely upon certain taggers, whether based on reputation, licensure or other criteria.  
+
+With those three things, I predict sufficient information will exist to fuel breakthroughs in the use of machine learning, library sciense and information management practices that could transform discoverability, utility and recombinant potential of knowledge itself. 
